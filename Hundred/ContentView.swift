@@ -14,59 +14,7 @@ struct ContentView: View {
     var body: some View {
         
         TabView(selection: $selectedTab) {
-            
-//            ZStack {
-//                ScrollView {
-//                // MARK: - Big Ready View
-//                    VStack {
-//                        CurrentBookView()
-//                            .padding(.horizontal)
-//                        Divider()
-//                            .padding(.horizontal)
-//                        ReadyView()
-//                            .padding(.horizontal)
-//                    }.padding(.horizontal)
-//
-//                // MARK: - ADView
-//
-//
-//                    HStack {
-//                        Text("爱阅读海量英文书免费读")
-//                            .bold()
-//                            .frame(height: 100)
-//                            .padding(.horizontal)
-//                        Spacer()
-//                        Image(systemName: "circle")
-//                            .frame(width: 100, height: 100)
-//                            .overlay(Rectangle().stroke())
-//                            .padding()
-//                    }
-//                    .padding()
-//
-//                    HStack {
-//                        Text("爱阅读海量英文书免费读")
-//                            .bold()
-//                            .frame(height: 100)
-//                            .padding(.horizontal)
-//                        Spacer()
-//                        Image(systemName: "circle")
-//                            .frame(width: 100, height: 100)
-//                            .overlay(Rectangle().stroke())
-//                            .padding()
-//                    }
-//                    .padding()
-//
-//
-//                //TrainingCardView()
-//                }.padding(.top,80)
-//
-//
-//
-//
-//
-//            }.tabItem{
-//                Image(systemName: "house")
-//            }.tag(0)
+                       
             WordView()
                 .tabItem {
                     Image(systemName: "house")

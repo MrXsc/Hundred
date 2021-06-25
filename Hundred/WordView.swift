@@ -79,6 +79,11 @@ struct WordView: View {
 
 struct WordView_Previews: PreviewProvider {
     static var previews: some View {
-        WordView()
+        Group {
+            WordView()
+            WordView()
+            WordView()
+            WordView()
+        }
     }
 }

@@ -181,9 +181,7 @@
 				B4AECC8226831F46005FF3F2 /* Course */,
 				B4AECC8B26832D51005FF3F2 /* Find */,
 				B4AECC76268302C9005FF3F2 /* StoreView.swift */,
-				B4AECC6C2682FB1A005FF3F2 /* ProfileView.swift */,
-				B45C1C5C26837F4A006EF4C1 /* ProfileTopView.swift */,
-				B45C1C5826837D86006EF4C1 /* ProfileListItem.swift */,
+				B4EB22AB2685CCF000BDF171 /* Profile */,
 				B4E3591E2680D77E0016723C /* ReadyView.swift */,
 				B4EB22A526838BEC00BDF171 /* PlayView.swift */,
 				B4E359222680E1E30016723C /* CurrentBookView.swift */,
@@ -221,6 +219,16 @@
 				B4E3590D2680C6470016723C /* Info.plist */,
 			);
 			path = HundredUITests;
+			sourceTree = "<group>";
+		};
+		B4EB22AB2685CCF000BDF171 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				B4AECC6C2682FB1A005FF3F2 /* ProfileView.swift */,
+				B45C1C5C26837F4A006EF4C1 /* ProfileTopView.swift */,
+				B45C1C5826837D86006EF4C1 /* ProfileListItem.swift */,
+			);
+			path = Profile;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -286,7 +294,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1140;
-				LastUpgradeCheck = 1140;
+				LastUpgradeCheck = 1250;
 				ORGANIZATIONNAME = CutEnglishOneHundred;
 				TargetAttributes = {
 					B4E358E22680C6370016723C = {
@@ -468,6 +476,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -528,6 +537,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -584,7 +594,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = Hundred/Hundred.entitlements;
-				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Hundred/Preview Content\"";
 				DEVELOPMENT_TEAM = PWN89SAC52;
